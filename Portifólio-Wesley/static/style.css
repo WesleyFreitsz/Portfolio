@@ -231,10 +231,13 @@ i.menu-mobile {
 
 .carousel-control-prev{
   margin-left: -8rem;
+  width: 32px;
+
 }
 
 .carousel-control-next{
   margin-right: -8rem;
+  width: 32px;
 }
 
 .carousel-indicators{
