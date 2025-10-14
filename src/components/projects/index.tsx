@@ -4,9 +4,25 @@ import React, { useState, useCallback } from "react";
 import Image from "next/image";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import { ProjectModal, TechIcon } from "..";
-import { useScroll } from "@/contexts/scroll-context"; 
+import { useScroll } from "@/contexts/scroll-context";
 
 const projectsData = [
+  {
+    title: "FitMind AI",
+    description:
+      "FitMind AI é um aplicativo fullstack de fitness e nutrição que utiliza IA para ajudar os usuários a monitorar sua dieta, registrar exercícios e obter insights personalizados. Ele possui um chatbot para responder a perguntas sobre fitness e nutrição, um calendário para acompanhar o progresso e um sistema de autenticação completo. O front-end foi construído com React e TypeScript, e o back-end com Node.js, Express, PostgreSQL e Drizzle ORM.",
+    image: "/img/fitmind.png",
+    github: "https://github.com/WesleyFreitsz/FitMindAI",
+    live: "https://fitmind-ai-blue.vercel.app/",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Drizzle",
+    ],
+  },
   {
     title: "MiniBlog",
     description:
@@ -48,7 +64,7 @@ export const Projects = () => {
     (typeof projectsData)[0] | null
   >(null);
 
-  const { locoScroll } = useScroll(); 
+  const { locoScroll } = useScroll();
 
   const handleImageLoad = useCallback(() => {
     if (locoScroll) {
@@ -79,7 +95,7 @@ export const Projects = () => {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     priority
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                    onLoad={handleImageLoad} 
+                    onLoad={handleImageLoad}
                   />
                 </div>
                 <div className="p-6">

@@ -6,7 +6,7 @@ Olá! Eu sou o Wesley Junior, um Desenvolvedor Fullstack com 3 anos de experiên
 
 Este projeto é o meu portfólio pessoal, onde demonstro minhas habilidades, projetos e um pouco da minha trajetória profissional.
 
-**[Acesse a versão ao vivo do portfólio aqui!](https://portfolio-eta-plum-95.vercel.app/bo.dev)**
+**[Acesse a versão ao vivo do portfólio aqui!](https://portfolio-eta-plum-95.vercel.app/)**
 
 ## ✨ Principais Features
 
@@ -34,8 +34,6 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias e bibliotecas:
 - **Lucide React:** Pacote de ícones.
 
 ---
-
-
 
 ## 📫 Contato
 

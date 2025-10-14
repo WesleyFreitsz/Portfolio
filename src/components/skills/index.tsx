@@ -2,7 +2,7 @@
 
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import React from "react";
-import { TechIcon } from ".."; 
+import { TechIcon } from "..";
 
 const allSkills = [
   "Javascript",
@@ -12,7 +12,11 @@ const allSkills = [
   "Angular",
   "HTML/CSS",
   "Nest.js",
+  "Node.js",
+  "Express",
+  "PostgreSQL",
   "MySQL",
+  "Drizzle",
   "SQLServer",
   "Git",
   "Firebase",

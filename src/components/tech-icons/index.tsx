@@ -14,6 +14,10 @@ import {
   SiNestjs,
   SiMysql,
   SiGit,
+  SiNodedotjs,
+  SiExpress,
+  SiPostgresql,
+  SiDrizzle,
 } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 
@@ -33,6 +37,10 @@ const iconMap: { [key: string]: React.ElementType } = {
   Javascript: SiJavascript,
   Angular: SiAngular,
   "Nest.js": SiNestjs,
+  "Node.js": SiNodedotjs,
+  Express: SiExpress,
+  PostgreSQL: SiPostgresql,
+  Drizzle: SiDrizzle,
   MySQL: SiMysql,
   SQLServer: FaDatabase,
   Git: SiGit,
