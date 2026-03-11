@@ -167,7 +167,7 @@ Made with ❤️ by <a href="https://github.com/WesleyFreitsz">Wesley Junior</a>
 
 ### Desenvolvedor Fullstack · React · Next.js · Node.js
 
-[![Projeto ao vivo aqui](https://img.shields.io/badge/Demo%20ao%20Vivo-Visitar%20Site-7c6ff7?style=for-the-badge&logo=vercel&logoColor=white)]([https://portfolio-eta-plum-95.vercel.app/])
+[![Projeto ao vivo aqui](https://img.shields.io/badge/Demo%20ao%20Vivo-Visitar%20Site-7c6ff7?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-eta-plum-95.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
