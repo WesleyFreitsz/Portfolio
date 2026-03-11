@@ -15,7 +15,7 @@
 
 ### Fullstack Developer · React · Next.js · Node.js
 
-[![Project Live Here](https://img.shields.io/badge/Live%20Demo-Visit%20Site-7c6ff7?style=for-the-badge&logo=vercel&logoColor=white)]([https://portfolio-eta-plum-95.vercel.app/])
+[![Project Live Here](https://img.shields.io/badge/Live%20Demo-Visit%20Site-7c6ff7?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-eta-plum-95.vercel.app/)
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://typescriptlang.org)
 [![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
