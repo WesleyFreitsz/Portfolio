@@ -9,3 +9,4 @@ export * from "./smooth-scroll";
 export * from "./projects-modal";
 export * from "./tech-icons";
 export * from "./theme-toggle";
+export * from "./grid-background";

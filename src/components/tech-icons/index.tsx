@@ -24,6 +24,7 @@ import { FaDatabase } from "react-icons/fa";
 interface TechIconProps {
   tech: string;
   className?: string;
+  style?: React.CSSProperties;
 }
 
 const iconMap: { [key: string]: React.ElementType } = {
@@ -46,10 +47,10 @@ const iconMap: { [key: string]: React.ElementType } = {
   Git: SiGit,
 };
 
-export const TechIcon = ({ tech, className }: TechIconProps) => {
+export const TechIcon = ({ tech, className, style }: TechIconProps) => {
   if (tech === "HTML/CSS") {
     return (
-      <div className="flex gap-2" title={tech}>
+      <div className="flex gap-2" title={tech} style={style}>
         <SiHtml5 className={className} />
         <SiCss3 className={className} />
       </div>
@@ -58,9 +59,7 @@ export const TechIcon = ({ tech, className }: TechIconProps) => {
 
   const IconComponent = iconMap[tech];
 
-  if (!IconComponent) {
-    return null;
-  }
+  if (!IconComponent) return null;
 
-  return <IconComponent className={className} title={tech} />;
+  return <IconComponent className={className} style={style} title={tech} />;
 };
