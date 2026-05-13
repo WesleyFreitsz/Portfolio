@@ -118,7 +118,7 @@ export const CustomCursor = () => {
       {/* Outer trailing ring */}
       <div
         ref={trailRef}
-        className="fixed top-0 left-0 pointer-events-none z-[9997]"
+        className="fixed top-0 left-0 pointer-events-none z-[999999]"
         style={{
           opacity: 0,
           transition: "opacity 0.3s ease",
@@ -140,7 +140,7 @@ export const CustomCursor = () => {
       {/* Main ring */}
       <div
         ref={cursorRef}
-        className="fixed top-0 left-0 pointer-events-none z-[9998]"
+        className="fixed top-0 left-0 pointer-events-none z-[999999]"
         style={{
           opacity: 0,
           transition: "opacity 0.3s ease",
@@ -165,7 +165,7 @@ export const CustomCursor = () => {
       {/* Inner dot */}
       <div
         ref={dotRef}
-        className="fixed top-0 left-0 pointer-events-none z-[9999]"
+        className="fixed top-0 left-0 pointer-events-none z-[999999]"
         style={{
           opacity: 0,
           transition: "opacity 0.3s ease",

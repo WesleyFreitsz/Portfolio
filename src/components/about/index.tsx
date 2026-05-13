@@ -23,23 +23,23 @@ const useCounter = (target: number, duration = 1500, start = false) => {
 const stats = [
   {
     icon: Briefcase,
-    label: "Experiência",
+    label: "anos de experiência",
     value: 3,
-    suffix: "+ anos",
+    suffix: "",
     delay: 0,
   },
   {
     icon: FolderGit,
-    label: "Projetos",
-    value: 15,
-    suffix: "+ completos",
+    label: "projetos concluídos",
+    value: 20,
+    suffix: "",
     delay: 150,
   },
   {
     icon: Users,
-    label: "Clientes",
+    label: "clientes satisfeitos",
     value: 20,
-    suffix: "+ satisfeitos",
+    suffix: "",
     delay: 300,
   },
 ];
@@ -134,14 +134,14 @@ export const About = () => {
                   style={{ color: "var(--primary)" }}
                 />
                 <div
-                  className="text-4xl font-bold mb-1"
+                  className="text-4xl font-bold mb-2 flex items-center justify-center gap-2"
                   style={{
                     fontFamily: "var(--font-syne), sans-serif",
                     color: "var(--foreground)",
                   }}
                 >
+                  <span className="text-2xl opacity-90">+ de</span>
                   {counts[i]}
-                  {stat.suffix.replace(/\d+/g, "").replace("+ ", "+")}
                 </div>
                 <p
                   className="text-sm font-medium"

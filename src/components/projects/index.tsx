@@ -9,6 +9,24 @@ import { ArrowUpRight } from "lucide-react";
 
 const projectsData = [
   {
+    title: "AltGeekStore",
+    description:
+      "E-commerce fullstack premium especializado em produtos geeks. Desenvolvido com Next.js 16, Prisma e SQLite, apresenta sistema de banners interativos com suporte a gestos, painel administrativo completo, gerenciamento de estoque, cupons de desconto e integração com gateway de pagamento.",
+    image: "/img/loja-altgeekstore.png",
+    github: "https://github.com/WesleyFreitsz/Loja-AltgeekStore",
+    live: "https://loja-altgeek-store.vercel.app/",
+    technologies: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Prisma",
+      "SQLite",
+      "TailwindCSS",
+      "Framer Motion",
+    ],
+    tag: "Fullstack",
+  },
+  {
     title: "FitMind AI",
     description:
       "FitMind AI é um aplicativo fullstack de fitness e nutrição que utiliza IA para ajudar os usuários a monitorar sua dieta, registrar exercícios e obter insights personalizados. Ele possui um chatbot para responder a perguntas sobre fitness e nutrição, um calendário para acompanhar o progresso e um sistema de autenticação completo.",
@@ -162,7 +180,7 @@ export const Projects = () => {
                   </p>
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-3">
-                      {project.technologies.slice(0, 4).map((tech) => (
+                      {project.technologies.slice(0, 6).map((tech) => (
                         <TechIcon
                           key={tech}
                           tech={tech}

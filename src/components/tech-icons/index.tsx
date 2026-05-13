@@ -18,6 +18,8 @@ import {
   SiExpress,
   SiPostgresql,
   SiDrizzle,
+  SiPrisma,
+  SiSqlite,
 } from "react-icons/si";
 import { FaDatabase } from "react-icons/fa";
 
@@ -43,6 +45,8 @@ const iconMap: { [key: string]: React.ElementType } = {
   PostgreSQL: SiPostgresql,
   Drizzle: SiDrizzle,
   MySQL: SiMysql,
+  Prisma: SiPrisma,
+  SQLite: SiSqlite,
   SQLServer: FaDatabase,
   Git: SiGit,
 };

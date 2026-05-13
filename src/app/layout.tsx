@@ -33,7 +33,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br" suppressHydrationWarning>
-      <body className={`${syne.variable}`}>
+      <body className={`${syne.variable} ${dmSans.variable}`}>
         <ThemeProvider>
           <ScrollProvider>
             <CustomCursor />

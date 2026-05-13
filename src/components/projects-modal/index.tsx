@@ -36,7 +36,13 @@ export const ProjectModal = ({ project, onClose }: ProjectModalProps) => {
     };
     window.addEventListener("keydown", handleEsc);
 
-    if (locoScroll) project ? locoScroll.stop() : locoScroll.start();
+    if (locoScroll) {
+      if (project) {
+        locoScroll.stop();
+      } else {
+        locoScroll.start();
+      }
+    }
 
     return () => {
       window.removeEventListener("keydown", handleEsc);

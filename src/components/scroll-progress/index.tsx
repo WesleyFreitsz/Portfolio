@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { motion, useSpring, useMotionValue } from "framer-motion";
+import { motion, useSpring } from "framer-motion";
 
 export const ScrollProgress = () => {
   const scaleX = useSpring(0, {

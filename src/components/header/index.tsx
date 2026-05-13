@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
-import Link from "next/link";
 import { LinkedinIcon, GithubIcon, Menu, X } from "lucide-react";
 import { ThemeToggle } from "../theme-toggle";
 import { useScroll } from "@/contexts/scroll-context";
