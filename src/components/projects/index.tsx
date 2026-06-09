@@ -27,23 +27,6 @@ const projectsData = [
     tag: "Fullstack",
   },
   {
-    title: "FitMind AI",
-    description:
-      "FitMind AI é um aplicativo fullstack de fitness e nutrição que utiliza IA para ajudar os usuários a monitorar sua dieta, registrar exercícios e obter insights personalizados. Ele possui um chatbot para responder a perguntas sobre fitness e nutrição, um calendário para acompanhar o progresso e um sistema de autenticação completo.",
-    image: "/img/fitmind.png",
-    github: "https://github.com/WesleyFreitsz/FitMindAI",
-    live: "https://fitmind-ai-blue.vercel.app/",
-    technologies: [
-      "React",
-      "TypeScript",
-      "Node.js",
-      "Express",
-      "PostgreSQL",
-      "Drizzle",
-    ],
-    tag: "Fullstack",
-  },
-  {
     title: "MiniBlog",
     description:
       "Projeto Fullstack de um blog simples com funções como login, logout e fazer, editar e visualizar posts. Projeto feito utilizando React (Router, Hooks, Context) e Firebase.",
